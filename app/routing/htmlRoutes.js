@@ -12,7 +12,7 @@ module.exports = function(app) {
 
 
     //route for all other inquiries
-    app.get("*", function(req, res){
+    app.get("/", function(req, res){
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 
