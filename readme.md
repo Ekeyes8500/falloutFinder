@@ -17,3 +17,5 @@ This is a little different than the typical "Friend Finder" app: basically this 
 * Calls character data from an API, currently set up to route any potential posts to it (Future plan)
 
 * Full stack web application
+   * Node.js
+   * Express
